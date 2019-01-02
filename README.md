@@ -17,7 +17,9 @@ Simply because I wasn't sure how this would be done in the first place and it wa
 - Provides optional context to children for more performant rendering (fixes [react-mosaic#79](https://github.com/palantir/react-mosaic/issues/79) among other things).
   - For example, `isDragging`, `height`, `width`, `position`, and more are planned (with the latter 3 currently implemented) (fixes [react-mosaic#69](https://github.com/palantir/react-mosaic/issues/69)).
 
-* Stateful Resizing which is how VSCode works. Resizing will move sibling elements further than one step in the tree if needed and if dragged back again the windows return to their original sizes.
+* Stateful Resizing which is how VSCode works.
+  - Resizing will move sibling elements further than one step in the tree if needed and if dragged back again the windows return to their original sizes.
+  - Releasing the resizer will reset the state for the next resize.
   - This is customizable with options `stateful`, `push`, `passive`. [More Info](https://github.com/bradennapier/react-grid-poc/blob/master/src/grid/controller.js#L110-L154)
 
 ![](./docs/DG-StatefulResize.gif)
