@@ -4,9 +4,15 @@ This is a proof of concept `heavily` inspired by [react-mosaic](https://github.c
 
 This is currently a research project into what a grid that works nearly identical to `VSCode`, which has implemented a great grid style for their tabs/windows.
 
+> To see the current API/props being used for testing, see [App.js](https://github.com/bradennapier/react-grid-poc/blob/master/src/App.js).
+
 ### Why not PR?
 
 Simply because I wasn't sure how this would be done in the first place and it was a fun challenge. I also use Flow over Typescript so there's the learning curve there to deal with for now.
+
+### Testing
+
+This is just an ejected `create-react-app` so... clone/fork then `yarn && yarn start`.
 
 ### Benefits / Changes over `react-mosaic`
 
