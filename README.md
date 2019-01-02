@@ -11,6 +11,9 @@ Simply because I wasn't sure how this would be done in the first place and it wa
 ### Benefits / Changes over `react-mosaic`
 
 - Tree vs Binary Tree Format (fixes [react-mosaic#31](https://github.com/palantir/react-mosaic/issues/31))
+
+- Custom constraints per tile and the ability to provide grid-wide constraints by pixels or percent (height and width).
+
 - Provides optional context to children for more performant rendering (fixes [react-mosaic#79](https://github.com/palantir/react-mosaic/issues/79) among other things).
   - For example, `isDragging`, `height`, `width`, `position`, and more are planned (with the latter 3 currently implemented) (fixes [react-mosaic#69](https://github.com/palantir/react-mosaic/issues/69)).
 
