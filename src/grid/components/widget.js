@@ -57,9 +57,11 @@ export default class TileWidget extends React.Component {
 
   handleTabClick = activeTab => {
     const { tile } = this.props;
-    tile.setState({
-      activeTab
-    });
+    tile
+      .setState({
+        activeTab
+      })
+      .commit();
   };
 
   render() {
