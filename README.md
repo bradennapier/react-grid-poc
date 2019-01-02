@@ -18,7 +18,7 @@ A few key benefits/changes from `react-mosaic`:
 
 - Tabbed windows opt-in (fixes [react-mosaic#50](https://github.com/palantir/react-mosaic/issues/50)).
 
-<img src="./docs/DG-Tabbed.png" width="200px" />
+<img src="./docs/DG-Tabbed.png" width="400px" />
 
 Currently Missing:
 
