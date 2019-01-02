@@ -18,9 +18,9 @@ This is just an ejected `create-react-app` so... clone/fork then `yarn && yarn s
 
 ### Benefits / Changes over `react-mosaic`
 
-- No dependencies for most part (`react-dnd` is added and will likely be needed). Dependencies shown in `package.json` are all `create-react-app`.
+- No dependencies for most part ([`react-dnd`](http://react-dnd.github.io/react-dnd/about) is added and will likely be needed). Dependencies shown in `package.json` are all [`create-react-app`](https://github.com/facebook/create-react-app).
 
-  - `styled-components` is currently a dependency but it would be separated easily. Theming with standard react components would be simple.
+  - [`styled-components`](https://www.styled-components.com/) is currently a dependency but it would be separated easily. Theming with standard react components would be simple.
 
 - Tree vs Binary Tree Format (fixes [react-mosaic#31](https://github.com/palantir/react-mosaic/issues/31))
 
@@ -36,7 +36,7 @@ This is just an ejected `create-react-app` so... clone/fork then `yarn && yarn s
 
 ![](./docs/DG-StatefulResize.gif)
 
-- Utilizes `styled-components` and CSS Variables for extremely simple theming capabilities. Best to just read the [defaultTheme](./src/grid/themes/dark/index.js) comments to see how this works. Makes dynamic styling extremely efficient but is also not technically dependent on `styled-components`. The components exported could be provided by another means if desired.
+- Utilizes [`styled-components`](https://www.styled-components.com/) and CSS Variables for extremely simple theming capabilities. Best to just read the [defaultTheme](./src/grid/themes/dark/index.js) comments to see how this works. Makes dynamic styling extremely efficient but is also not technically dependent on `styled-components`. The components exported could be provided by another means if desired.
 
 > Providing overrides to the selected themes styling is very simple with `styled-components`!
 
