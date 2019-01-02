@@ -34,3 +34,4 @@ Simply because I wasn't sure how this would be done in the first place and it wa
 
 - Drag & Drop (have to learn React DnD still :-P).
 - Flow Typing is not finished or really implemented aside from basic structure for it. Won't be hard to get 100% coverage here though as the overall structures are simple.
+- Controlled mode in the same way `react-mosaic` provides it. Not sure this is needed with how this is implemented but considering it. Would not be hard in the end to provide.
