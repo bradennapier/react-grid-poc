@@ -16,6 +16,8 @@ This is just an ejected `create-react-app` so... clone/fork then `yarn && yarn s
 
 ### Benefits / Changes over `react-mosaic`
 
+- No dependencies for most part (`react-dnd` is added and will likely be needed). Dependencies shown in `package.json` are all `create-react-app`.
+
 - Tree vs Binary Tree Format (fixes [react-mosaic#31](https://github.com/palantir/react-mosaic/issues/31))
 
 - Custom constraints per tile and the ability to provide grid-wide constraints by pixels or percent (height and width).
