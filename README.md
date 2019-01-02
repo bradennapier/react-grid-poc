@@ -63,6 +63,8 @@ const CSS_OVERRIDES = css`
 
 - Extremely simple to serialize, similar to `react-mosaic` by simply `JSON.stringify(grid)`.
 
+- **PERFORMANT** - Designed to be extremely performant and provide its dynamic capabilities at a full 60 fps. `react-mosaic` is also quite performant although its biggest failure here is that it can be broken by children inside the grid (for example, a `tradingview chart` cant be used within a node).
+
 ### Currently Missing
 
 - Drag & Drop (have to learn React DnD still :-P).
