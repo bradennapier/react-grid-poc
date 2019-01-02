@@ -50,6 +50,8 @@ const CSS_OVERRIDES = css`
 - Tabbed windows opt-in (fixes [react-mosaic#50](https://github.com/palantir/react-mosaic/issues/50)).
   - Providing `<DynamicGrid tabbed>` will render widgets with the ability to do tabbing. This is done by providing a `tabs`, `activeTab`, and optionally `title` property.
   - May customize the tab render by providing `renderTitle` function which is called if found with the context for the `tile`.
+  - If not using `tabbed`, you may still provide the `tabs` property. If you also provide `activeTab` it will render the given tab and allows easily providing conditional rendering by modifying that property.
+    - If `tabs` is provided without `activeTab` then the first element is rendered by default when `tabbed` is false (or not defined).
 
 <img src="./docs/DG-Tabbed.png" width="400px" />
 
